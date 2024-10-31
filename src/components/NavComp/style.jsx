@@ -5,10 +5,10 @@ export const NavA = styled.a`
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    width: 30px;
-    justify-content: space-between, center;
+    width: 35px;
+    justify-content: center;
     align-items: center;
-`
+`;
 export const NavContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ export const NavContainer = styled.div`
 `;
 
 export const ImagemStyle = styled.img`
-    width: 15px;
+    width: 20px;
     height: 20px;
     cursor: pointer;
     margin-left: 150px;
