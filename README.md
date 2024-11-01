@@ -24,10 +24,10 @@ In the project in question, the website chosen was Twitter.
 ## Tela de login clonado(Clone login)
 ![Tela de login clonado](https://github.com/Cilentoo/React-TrabalhoClonagem/blob/main/src/assets/img/telaLoginClone.jpg)
 
-##Tela de perfil original(Original Profile)
+## Tela de perfil original(Original Profile)
 ![Tela de perfil original](https://github.com/Cilentoo/React-TrabalhoClonagem/blob/main/src/assets/img/telaPerfilTwitter.jpg)
 
-##Tela de perfil clonada(Clone Profile)
+## Tela de perfil clonada(Clone Profile)
 ![Tela de perfil clonada](https://github.com/Cilentoo/React-TrabalhoClonagem/blob/main/src/assets/img/telaPerfilClone.jpg)
 
 # Tecnologias utilizadas (Technologies used)
