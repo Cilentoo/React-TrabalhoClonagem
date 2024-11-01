@@ -12,11 +12,17 @@ Currently, two official plugins are available:
 
 # Sobre o projeto
 O objetivo do projeto era clonar uma página de login/cadastro e uma página seja de feed, perfil, marketplace entre outros do mesmo site.
-No projeto em questão o site escolhido foi o twitter.
+No projeto em questão o site escolhido foi o twitter. Foram utilizados styled components em grande parte do projeto para estilização, sistemas
+de pages e components bem estrurados em suas pastas, especificamente na pagina de login no botão entrar temos um hook que abre um modal simples
+com inputs e um botão para entrar recomendo deixar por ultimo, e na pagina de perfil foram utilizados os mesmos conceitos, e hooks foram utilizados
+nos botões de comentário a cada clique aumenta o numero, e no coração de like que muda de vermelho para cinza no clique.
 
 #About
 The objective of the project was to clone a login/registration page and a feed, profile, marketplace page, among others, from the same website.
-In the project in question, the website chosen was Twitter.
+In the project in question, the website chosen was Twitter. Styled components were used in a large part of the project for styling, systems
+of pages and components well structured in their folders, specifically on the login page on the enter button we have a hook that opens a simple modal
+with inputs and a button to enter I recommend leaving it for last, and on the profile page the same concepts were used, and hooks were used
+on the comment buttons, the number increases with each click, and on the like heart, it changes from red to gray on click.
 
 ## Tela de login original(Original Login)
 ![Tela de login original](https://github.com/Cilentoo/React-TrabalhoClonagem/blob/main/src/assets/img/telaLoginTwitter.jpg)
