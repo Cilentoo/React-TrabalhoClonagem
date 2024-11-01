@@ -13,6 +13,7 @@ export const NavContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
 `;
 
 export const ImagemStyle = styled.img`

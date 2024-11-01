@@ -114,17 +114,17 @@ export const Home = () => {
 
                     <InteractionContainer>
                         <div onClick={handleComment} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                            <FaRegComment size={10} color="gray" />
+                            <FaRegComment size={7} color="gray" />
                             <span style={{ marginLeft: '5px', fontSize: '7px', color: 'gray'  }}>{comments}</span>
                         </div>
 
                         <div onClick={handleRetweet} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                            <FaRetweet size={10} color="gray" />
+                            <FaRetweet size={7} color="gray" />
                             <span style={{ marginLeft: '5px', fontSize: '7px', color: 'gray'  }}>{retweets}</span>
                         </div>
 
                         <div onClick={handleLikeButton} style={{ cursor: 'pointer' }}>
-                            <AiFillHeart color={likedButton ? 'red' : 'gray'} size={10} />
+                            <AiFillHeart color={likedButton ? 'red' : 'gray'} size={7} />
                         </div>
                     </InteractionContainer>
                 </PostContainer>

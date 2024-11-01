@@ -13,6 +13,11 @@ export const ContentPage = styled.div`
     border: 1px solid gray;
     width: 40vw;
     margin-right: 280px;
+
+    @media (max-width: 320px){
+        width: 40vw;
+        margin-left: 100px;
+    }
 `;
 
 export const Header = styled.div`
@@ -48,6 +53,10 @@ export const NavItem = styled.div`
     &:hover {
         color: #1D9BF0;
     }
+
+    @media (max-width: 320px){
+        font-size: 5px;
+    }
 `;
 
 export const PostContainer = styled.div`
@@ -63,6 +72,11 @@ export const InteractionContainer = styled.div`
     width: 130px; 
     margin-left: 40px;
     margin-top: 3px; 
+
+    @media (max-width: 320px){
+        width: 80px;
+        margin-left: 20px;
+    }
 `;
 
 export const ProfileName = styled.h4`
@@ -73,6 +87,11 @@ export const ProfileName = styled.h4`
     position: relative;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+
+    @media (max-width: 320px){
+        font-size: 4px;
+        margin-left: 6px;
+    }
 `;
 
 export const ProfilePathPost = styled.h4`
@@ -83,6 +102,10 @@ export const ProfilePathPost = styled.h4`
     position: relative;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+
+    @media (max-width: 320px){
+        font-size: 4px;
+    }
 `;
 
 export const PostContent = styled.h4`
@@ -93,6 +116,11 @@ export const PostContent = styled.h4`
     position: relative;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+    
+    @media (max-width: 320px){
+        margin-left: 30px;
+        font-size: 4px;
+    }
 `;
 
 export const PostImage = styled.img`
@@ -100,6 +128,10 @@ export const PostImage = styled.img`
     height: 20px;
     margin-left: 15px;
     margin-top: 4px;
+
+    @media (max-width: 320px) {
+        margin-left: 2px;
+    }
 `;
 
 export const TresPontos = styled.img`
@@ -108,6 +140,10 @@ export const TresPontos = styled.img`
     margin-left: 110px;
     margin-top: 4px;
     cursor: pointer;
+
+    @media (max-width: 320px) {
+        margin-left: 20px;
+    }
 `;
 
 export const Imagem = styled.img`
@@ -133,6 +169,11 @@ export const Subtitle = styled.h3`
     margin-left: 10px;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+
+    @media(max-width: 320px){
+        font-size: 10px;
+        margin-top: 1px;
+    }
 `;
 
 export const ProfilePath = styled.h3`
@@ -142,6 +183,10 @@ export const ProfilePath = styled.h3`
     letter-spacing: 0.5px;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+
+    @media(max-width: 320px){
+        font-size: 5px;
+    }
 `;
 
 export const ExtraProfilePath = styled.h3`
@@ -170,6 +215,10 @@ export const ImagemLocal = styled.img`
     width: 5px;
     margin-top: 5px;
     margin-left: 10px;
+
+    @media (max-width: 320px){
+        margin-left: 2px;
+    }
 `;
 
 export const BirthDay = styled.h4`
@@ -186,6 +235,10 @@ export const ImagemBallon = styled.img`
     width: 5px;
     margin-top: 5px;
     margin-left: 4px;
+
+    @media (max-width: 320px){
+        margin-left: 9px;
+    }
 `;
 
 export const EntranceDay = styled.h4`
@@ -212,6 +265,10 @@ export const Seguindo = styled.h4`
     position: relative;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+
+    @media(max-width: 320px){
+        font-size: 6px;
+    }
 `;
 
 export const Seguidores = styled.h4`
@@ -222,6 +279,10 @@ export const Seguidores = styled.h4`
     position: relative;
     font-family: Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
                     Helvetica, Arial, sans-serif;
+    
+    @media(max-width: 320px){
+        font-size: 6px;
+    }
 `;
 
 export const ImagemVoltar = styled.img`
@@ -246,4 +307,11 @@ export const ImagemRedonda = styled.img`
     top: 98px;
     left: 190px; 
     cursor: pointer;
+
+    @media(max-width: 320px){
+        width: 30px;
+        top: 65px;
+        left: 145px;
+    }
+
 `;
