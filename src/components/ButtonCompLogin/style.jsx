@@ -1,5 +1,4 @@
-import styled from "styled-components"
-
+import styled from "styled-components";
 export const ButtonEnter = styled.button`
     border-radius: 9px;
     border: none;
@@ -42,4 +41,4 @@ export const ButtonLogin = styled.button`
     text-indent: 0px;
     line-height: 20px;
     text-shadow: #333;
-`;
+`; 

@@ -6,8 +6,16 @@ import imagemA from "../../assets/Apple.jpg"
 import { ButtonApple, ButtonGoogle } from "../../components/ButtonCompSocial/style"
 import { ButtonEnter, ButtonLogin } from "../../components/ButtonCompLogin/style"
 import { SpanDiretriz } from "../../components/DiretrizesComp/style"
+import { useState } from "react"
+import { ModalComp } from "../../components/ModalComp"
 
 export const Login= () => {
+
+    const [openModal, setOpenModal] = useState(false)
+
+    const handleOpenModal = () => {
+        setOpenModal(!openModal)
+    }
 
     return(
         <Container>
@@ -40,8 +48,14 @@ export const Login= () => {
 
             <SubtituloFinal>Ja tem uma conta?</SubtituloFinal>
             
-            <ButtonLogin>Entrar</ButtonLogin>
+            <ButtonLogin onClick={handleOpenModal}>Entrar</ButtonLogin>
             
+            {
+                openModal &&
+                <ModalComp/>
+            }
         </Container>
     )
 }
+
+//testa o modal por ultimo pq ele ta simples demais.
